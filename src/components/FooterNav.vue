@@ -1,7 +1,7 @@
 <template>
     <nav>
         <div class="container d-flex justify-content-between text-white pt-5">
-            <div class="links w-50 d-flex justify-content-between">
+            <div class="links d-flex justify-content-between flex-wrap flex-sm-nowrap">
                 <div v-for="group in groupLinks" class="group-link">
                     <h3 class="fw-bold fs-5 text-uppercase">{{group.title}}</h3>
                     <ul>
@@ -9,7 +9,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="bg-footer">
+            <div class="bg-footer d-none d-lg-block">
                 <img src="/img/dc-logo-bg.png" alt="">
             </div>
         </div>
@@ -39,6 +39,10 @@ nav {
     background-size: cover;
 }
 
+.links {
+    width: 50%;
+}
+
 .container {
     height: 450px;
 }
@@ -59,11 +63,16 @@ nav {
 .bg-footer {
     overflow: hidden;
  img {
-    width:100%;
+    width:563px;
     overflow: hidden;
     object-position: 0 -76px;
  }
 }
 
+@media screen and (max-width:992px) {
+    .links {
+        width:100%;
+    }
+}
 
 </style>

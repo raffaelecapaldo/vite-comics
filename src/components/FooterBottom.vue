@@ -1,6 +1,6 @@
 <template>
  <div class="footer-bottom">
-    <div class="container d-flex justify-content-between align-items-center">
+    <div class="container d-flex flex-column gap-5 gap-md-0 flex-md-row justify-content-between align-items-center">
         <div class="call-to-action">
             <a class="text-uppercase" href="#">sign-up now!</a>
         </div>

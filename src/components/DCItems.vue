@@ -1,7 +1,7 @@
 <template>
     <div class="items-dc">
         <div class="container p-5">
-            <div class="d-flex justify-content-around align-items-center">
+            <div class="d-flex justify-content-around align-items-center flex-wrap gap-3">
                 <div v-for="item in items" class="item text-white">
                     <img :class="{small: item.text === 'Comic Shop Locator'}" :src="item.image" alt="">
                     <span class="ms-3 text-uppercase">{{ item.text }}</span>
