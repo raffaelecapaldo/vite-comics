@@ -1,13 +1,13 @@
 <template>
-  <div class="container">
-    Prova
-  </div>
-
+ <AppHeader />
 </template>
 
 <script>
+import AppHeader from './components/AppHeader.vue';
   export default {
-    
+   components: {
+    AppHeader,
+   } 
   }
 </script>
 
