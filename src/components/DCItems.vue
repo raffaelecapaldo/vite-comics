@@ -3,7 +3,7 @@
         <div class="container p-5">
             <div class="d-flex justify-content-around align-items-center">
                 <div v-for="item in items" class="item text-white">
-                    <img :src="item.image" alt="">
+                    <img :class="{small: item.text === 'Comic Shop Locator'}" :src="item.image" alt="">
                     <span class="ms-3 text-uppercase">{{ item.text }}</span>
                 </div>
               
@@ -34,5 +34,9 @@ import { items } from '../data/data.js'
     img {
         width:55px;
     }
+}
+
+.small {
+    width:40px !important;
 }
 </style>
