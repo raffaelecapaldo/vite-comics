@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <div class="container d-flex justify-content-between text-white p-3">
+        <div class="container d-flex justify-content-between text-white pt-5">
             <div class="links w-50 d-flex justify-content-between">
                 <div v-for="group in groupLinks" class="group-link">
                     <h3 class="fw-bold fs-5 text-uppercase">{{group.title}}</h3>
@@ -31,6 +31,7 @@ import { footerLinks } from '../data/data.js'
 </script>
 
 <style lang="scss" scoped>
+
 nav {
     background-image: url('img/footer-bg.jpg');
 
@@ -38,6 +39,9 @@ nav {
     background-size: cover;
 }
 
+.container {
+    height: 450px;
+}
 
 nav {
     ul {
@@ -53,12 +57,13 @@ nav {
 
 }
 .bg-footer {
-    position:relative;
-    img {
-        position:absolute;
-        right:0;
-        top:-80px;
-    }
+    overflow: hidden;
+ img {
+    width:100%;
+    overflow: hidden;
+    object-position: 0 -76px;
+ }
 }
+
 
 </style>

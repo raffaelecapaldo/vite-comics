@@ -9,6 +9,7 @@
  <DCItems />
  <footer>
  <FooterNav />
+ <FooterBottom />
 </footer>
 
 
@@ -19,11 +20,13 @@
 import AppHeader from './components/AppHeader.vue';
 import DCItems from './components/DCItems.vue';
 import FooterNav from './components/FooterNav.vue';
+import FooterBottom from './components/FooterBottom.vue';
   export default {
    components: {
     AppHeader,
     DCItems,
-    FooterNav
+    FooterNav,
+    FooterBottom
    } 
   }
 </script>
