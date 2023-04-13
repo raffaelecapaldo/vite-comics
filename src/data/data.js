@@ -53,23 +53,23 @@ const links = [
 
 const items = [
     {
-        image: 'img/buy-comics-digital-comics.png',
+        image: '/img/buy-comics-digital-comics.png',
         text: 'Digital comics'
     },
     {
-        image: 'img/buy-comics-merchandise.png',
+        image: '/img/buy-comics-merchandise.png',
         text: 'DC Merchandise'
     },
     {
-        image: 'img/buy-comics-subscriptions.png',
+        image: '/img/buy-comics-subscriptions.png',
         text: 'Subscription'
     },
     {
-        image: 'img/buy-comics-shop-locator.png',
+        image: '/img/buy-comics-shop-locator.png',
         text: 'Comic Shop Locator'
     },
     {
-        image: 'img/buy-dc-power-visa.svg',
+        image: '/img/buy-dc-power-visa.svg',
         text: 'DC Power Visa'
     },
 ]

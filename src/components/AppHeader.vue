@@ -1,7 +1,7 @@
 <template>
   <header class="container py-3 d-flex justify-content-between align-items-center">
     <div class="logo">
-      <img src="img/dc-logo.png" alt="Logo DC">
+      <img src="/img/dc-logo.png" alt="Logo DC">
     </div>
     <nav>
       <ul class="d-flex gap-3">

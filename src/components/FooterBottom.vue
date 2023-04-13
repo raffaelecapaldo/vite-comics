@@ -6,11 +6,11 @@
         </div>
         <div class="social d-flex align-items-center">
             <span>Follow Us</span>
-            <img src="img/footer-facebook.png" alt="facebook">
-            <img src="img/footer-twitter.png" alt="twitter">
-            <img src="img/footer-youtube.png" alt="youtube">
-            <img src="img/footer-pinterest.png" alt="pinterest">
-            <img src="img/footer-periscope.png" alt="periscope">
+            <img src="/img/footer-facebook.png" alt="facebook">
+            <img src="/img/footer-twitter.png" alt="twitter">
+            <img src="/img/footer-youtube.png" alt="youtube">
+            <img src="/img/footer-pinterest.png" alt="pinterest">
+            <img src="/img/footer-periscope.png" alt="periscope">
 
         </div>
     </div>

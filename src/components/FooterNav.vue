@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="bg-footer">
-                <img src="img/dc-logo-bg.png" alt="">
+                <img src="/img/dc-logo-bg.png" alt="">
             </div>
         </div>
     </nav>
@@ -33,7 +33,7 @@ import { footerLinks } from '../data/data.js'
 <style lang="scss" scoped>
 
 nav {
-    background-image: url('img/footer-bg.jpg');
+    background-image: url('/img/footer-bg.jpg');
 
     background-repeat: no-repeat;
     background-size: cover;
