@@ -4,13 +4,13 @@
  <main>
  <ComicCards />
  <DCItems />
+</main>
  <footer>
  <FooterNav />
  <FooterBottom />
 </footer>
 
 
- </main>
 </template>
 
 <script>
