@@ -1,5 +1,6 @@
 <template>
  <AppHeader />
+ <Jumbotron />
  <main>
  <div class="comics">
   <div class="container">
@@ -24,6 +25,7 @@ import DCItems from './components/DCItems.vue';
 import FooterNav from './components/FooterNav.vue';
 import FooterBottom from './components/FooterBottom.vue';
 import ComicCard from './components/ComicCard.vue';
+import Jumbotron from './components/Jumbotron.vue';
 import { comicsData } from './data/data.js'
 
   export default {
@@ -33,6 +35,7 @@ import { comicsData } from './data/data.js'
     FooterNav,
     FooterBottom,
     ComicCard,
+    Jumbotron,
    },
    data() {
     return {
