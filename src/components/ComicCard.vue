@@ -26,7 +26,7 @@
     height: 187px;
 }
 
-@media (min-width: 1200px) {.col5 {
+@media (max-width: 1400px) and (min-width:1199.98px) {.col5 {
     flex: 0 0 auto;
     width: 20%;
 }}

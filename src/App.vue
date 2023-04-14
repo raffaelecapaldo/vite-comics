@@ -44,9 +44,7 @@ import { comicsData } from './data/data.js'
 
 <style lang="scss" scoped>
 .comics {
-  .container {
-    max-width: 1200px;
-  }
+
   background-color: #1c1c1c;
 }
 </style>
