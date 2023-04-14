@@ -29,8 +29,8 @@ export default {
 <style lang="scss" scoped>
 @mixin activelink {
   text-underline-offset: 63px;
-      text-decoration: underline 6px #0282f9;
-      color:#0282f9;
+      text-decoration: underline 6px $primary-color;
+      color:$primary-color;
 }
 
 nav {

@@ -58,7 +58,7 @@ nav {
         text-decoration:none;
 
         &:hover{
-            color:#0282f9;
+            color:$primary-color;
         }
         }
     }

@@ -33,7 +33,7 @@
     a {
         color:white;
         text-decoration: none;
-        border:2px solid #0282f9;
+        border:2px solid $primary-color;
         padding:15px;
         font-weight: bold;
     }
@@ -48,7 +48,7 @@
         margin-left:1rem;
     }
     span {
-        color: #0282f9;
+        color: $primary-color;
         text-transform: uppercase;
         font-size: 1.5rem;
         font-weight: bold;

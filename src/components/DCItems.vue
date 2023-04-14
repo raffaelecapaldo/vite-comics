@@ -27,7 +27,7 @@ import { items } from '../data/data.js'
 
 <style lang="scss" scoped>
 .items-dc {
-    background-color: #0282f9;
+    background-color: $primary-color;
 }
 
 .item {

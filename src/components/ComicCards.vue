@@ -37,7 +37,7 @@ import ComicCard from './ComicCard.vue';
 background-color: #1c1c1c;
 .container {
     span {
-        background-color: #0282f9;
+        background-color: $primary-color;
         padding:10px 50px;
         margin-top:35px;
         margin-bottom:20px;
@@ -51,7 +51,7 @@ background-color: #1c1c1c;
     position: absolute;
     top:-40px;
     left:-5px;
-    background-color: #0282f9;
+    background-color: $primary-color;
     padding:10px 18px;
 }
 }
