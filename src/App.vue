@@ -2,13 +2,7 @@
  <AppHeader />
  <Jumbotron />
  <main>
- <div class="comics">
-  <div class="container">
-    <div class="row">
-  <ComicCard v-for="comic in comics" :image="comic.thumb" :title="comic.series" />
-</div>
-</div>
- </div>
+ <ComicCards />
  <DCItems />
  <footer>
  <FooterNav />
@@ -24,9 +18,8 @@ import AppHeader from './components/AppHeader.vue';
 import DCItems from './components/DCItems.vue';
 import FooterNav from './components/FooterNav.vue';
 import FooterBottom from './components/FooterBottom.vue';
-import ComicCard from './components/ComicCard.vue';
 import Jumbotron from './components/Jumbotron.vue';
-import { comicsData } from './data/data.js'
+import ComicCards from './components/ComicCards.vue';
 
   export default {
    components: {
@@ -34,20 +27,12 @@ import { comicsData } from './data/data.js'
     DCItems,
     FooterNav,
     FooterBottom,
-    ComicCard,
     Jumbotron,
+    ComicCards
    },
-   data() {
-    return {
-      comics: comicsData
-    }
-   } 
   }
 </script>
 
 <style lang="scss" scoped>
-.comics {
 
-  background-color: #1c1c1c;
-}
 </style>
