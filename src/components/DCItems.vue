@@ -2,11 +2,7 @@
     <div class="items-dc">
         <div class="container p-5">
             <div class="d-flex justify-content-around align-items-center flex-wrap gap-3">
-                <div v-for="item in items" class="item text-white">
-                    <img :class="{small: item.text === 'Comic Shop Locator'}" :src="item.image" alt="">
-                    <span class="ms-3 text-uppercase">{{ item.text }}</span>
-                </div>
-              
+               <DCItem v-for="item in items" :text="item.text" :image="item.image"/>            
             </div>
         </div>
     </div>
@@ -14,13 +10,16 @@
 
 <script>
 import { items } from '../data/data.js'
-
+import DCItem from './DCItem.vue';
     export default {
         name:"dc-items",
         data() {
             return {
                items:items 
             }
+        },
+        components: {
+            DCItem
         }
     }
 </script>
@@ -28,15 +27,5 @@ import { items } from '../data/data.js'
 <style lang="scss" scoped>
 .items-dc {
     background-color: $primary-color;
-}
-
-.item {
-    img {
-        width:55px;
-    }
-}
-
-.small {
-    width:40px !important;
 }
 </style>
