@@ -5,7 +5,7 @@
                 <div v-for="group in groupLinks" class="group-link">
                     <h3 class="fw-bold fs-5 text-uppercase">{{group.title}}</h3>
                     <ul>
-                       <a class="small" v-for="link in group.links" href=""> <li>{{ link.text }}</li></a>
+                       <a class="small" v-for="link in group.links" :href="link.url"> <li>{{ link.text }}</li></a>
                     </ul>
                 </div>
             </div>
@@ -56,6 +56,10 @@ nav {
         a {
         color:#71776e;
         text-decoration:none;
+
+        &:hover{
+            color:#0282f9;
+        }
         }
     }
 

@@ -1,10 +1,12 @@
 <template>
  <AppHeader />
  <main>
- <div class="todo fs-3 bg-black p-5 text-white">
+ <div class="comics">
   <div class="container">
-    Content Goes Here
-  </div>
+    <div class="row">
+  <ComicCard v-for="comic in comics" :image="comic.thumb" :title="comic.series" />
+</div>
+</div>
  </div>
  <DCItems />
  <footer>
@@ -21,16 +23,27 @@ import AppHeader from './components/AppHeader.vue';
 import DCItems from './components/DCItems.vue';
 import FooterNav from './components/FooterNav.vue';
 import FooterBottom from './components/FooterBottom.vue';
+import ComicCard from './components/ComicCard.vue';
+import { comicsData } from './data/data.js'
+
   export default {
    components: {
     AppHeader,
     DCItems,
     FooterNav,
-    FooterBottom
+    FooterBottom,
+    ComicCard,
+   },
+   data() {
+    return {
+      comics: comicsData
+    }
    } 
   }
 </script>
 
 <style lang="scss" scoped>
-
+.comics {
+  background-color: #1c1c1c;
+}
 </style>
