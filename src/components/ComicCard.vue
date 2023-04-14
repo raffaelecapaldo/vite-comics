@@ -1,8 +1,10 @@
 <template>
  <div class="col-xxl-2 col5 col-lg-3 col-md-4 col-sm-6 col-12  d-flex d-sm-block justify-content-center align-items-center">
-    <div class="comic-card mt-3">
+    <div class="comic-card mt-3 d-flex flex-column justify-content-center align-items-center d-sm-block">
         <img class="cover" :src="image" :alt="title">
-        <p class="text-white text-uppercase mt-3">{{ title }}</p>
+        <div class="text-cover">
+        <p class="text-white text-uppercase mt-3 ">{{ title }}</p>
+        </div>
     </div>
  </div>   
 </template>
