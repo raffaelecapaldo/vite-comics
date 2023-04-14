@@ -1,5 +1,5 @@
 <template>
- <div class="col-xxl-2 col5 col-lg-3 col-md-4 col-sm-6 col-12  d-flex d-sm-block justify-content-center align-items-center">
+ <div class="col-xxl-2 col5 col-lg-3 col-md-4 col-sm-6 col-6  d-flex d-sm-block justify-content-center align-items-center">
     <div class="comic-card mt-3 d-flex flex-column justify-content-center align-items-center d-sm-block">
         <img class="cover" :src="image" :alt="title">
         <div class="text-cover">

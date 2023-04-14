@@ -106,19 +106,22 @@ const footerLinks = [
             {
                 text: "News",
                 url: "#",
-            }]},
+            }],
+        inside:[
             {
-            title: 'Shop',
-            links: [
-                {
-                    text: "Shop DC",
-                    url: "#",
-                },
-                {
-                    text: "Shop DC Collectibles",
-                    url: "#",
-                }
-            ]},
+                title: 'Shop',
+                links: [
+                    {
+                        text: "Shop DC",
+                        url: "#",
+                    },
+                    {
+                        text: "Shop DC Collectibles",
+                        url: "#",
+                    }
+                ]},
+        ]},
+         
             {
             title: 'DC',
             links: [

@@ -7,6 +7,12 @@
                     <ul>
                        <a class="small" v-for="link in group.links" :href="link.url"> <li>{{ link.text }}</li></a>
                     </ul>
+                    <template v-for="item in group?.inside">
+                    <h3 class="fw-bold fs-5 text-uppercase mt-3">{{item.title}}</h3>
+                    <ul>
+                       <a class="small" v-for="link in item?.links" :href="link.url"> <li>{{ link.text }}</li></a>
+                    </ul>
+                </template>
                 </div>
             </div>
             <div class="bg-footer d-none d-lg-block">
